@@ -17,7 +17,7 @@ Learning Data Science and Tracking my Progress Each Day
 * The entered input will be converted into a  string by default
 * Use Python's inbuilt _print()_ function to print output.
 
-## Data Types
+## Data Structures
 #### Lists
 * A list is mutable and ordered collection of items.
 * Syntax: _list((1,2,3,4))_ or _[1,2,3,4]_
