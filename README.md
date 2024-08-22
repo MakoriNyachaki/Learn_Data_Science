@@ -38,3 +38,65 @@ Learning Data Science and Tracking my Progress Each Day
 
 ## Comparisons and Logic in Python
 
+#### Comparing Variables
+* We use _<, >, >=, <=, !=, ==_ to compare values.
+* Output: Boolean value (True or False).
+
+#### Output from Logic
+_and_ operator: *True*  if and only if both sides are _True_.
+_or_ operator: *True* if either side is True or both sides are true.
+_not_ operator: Reverses the value of the input. Example True to False
+
+#### Conditional Statements
+* Using conditional statements for decision making and execute blocks based on condition.
+* We use _if, elif, and else_ keywords.
+
+## Loops
+Types: _while_ and _for_ loops
+
+#### While Loop
+* Repeats a block of code based on condition.
+* Start the loop using the _while keyword._
+
+#### For Loop
+* Executes a portion of code one for each element in sequence of elements or iterate over collections.
+* Use the _for_ keyword for the loop.
+
+## Python Functions
+*Function* is a block of related statements to perform actions.
+Types: *Built in* and *User Defined* functions.
+#### Built-in Functions
+* These are defined by default in Python language packages. 
+* They are called to work by importing the specific package where they are defined.
+* You can call it many times to work as you want.
+
+#### User Defined
+* A series of related statements that are defined and coded by the user.
+* They are defined using the _def_ keyword.
+* You can call it to work as many times as you wish.
+
+#### Anonymous Lambda
+* A function without a name.
+* Uses _Lambda_ Keyword.
+* Can take any number of arguments.
+* Uses only a single expression.
+* Syntax: _lambda Argument: Expression_
+* Return function objects.
+
+### Break Statement
+* Using the break statement to break out of a loop.
+* You can break both the while and for loops to stop them.
+* Use the _break_ keyword.
+
+### Continue Statement
+* Use the _continue_ keyword to skip the remaining value and continue with the next.
+
+### for...else Statement
+* Use _for_ with _else_ when the loop is not terminated by the _break._
+
+### Check Password
+
+* We use the _range_, _input()_, _if_, _print(),_ and _else_ to check validity of passwords.
+
+## OOP in Python
+
