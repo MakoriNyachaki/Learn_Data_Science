@@ -99,4 +99,133 @@ Types: *Built in* and *User Defined* functions.
 * We use the _range_, _input()_, _if_, _print(),_ and _else_ to check validity of passwords.
 
 ## OOP in Python
+* Python is an OOP language.
+* A class is a user defined data structure for creating instances.
+* Syntax: _class <className>_
+* You create objects based on a class.
+* Class methods are functions which belong to a class. They have attributes and instance attributes.
+* ''__init__(self)'' is initial function to help us know the initial state and tell Python what the values are.
 
+#### Inheritance
+* Creating a class based on another class thus, inheriting all methods and properties.
+
+#### Polymorphism
+
+## Advanced Foundations
+#### List Comprehension
+* List coomprehension is a short and easy way to create a list from another sequence.
+* Syntax: ''[Exprs for element in sequence if condition]''
+* Example:
+                    '''
+                    x = range(6)
+                    evens = [n for n in x if n % 2 ==0]
+                    print(evens)
+                    '''
+
+#### Built-in Modules
+- Python has several built-in modules.
+- You must import these modules in order to use them.
+- You can import them using _import math_ to import the whole math module or _from math import sin, cos_ to import specific functions from the math module.
+- To call a function after importing the whole module we use the _moduleName.functionName()_ or if you import a specific function we use the _functionName()_ notation.
+
+## Data Visualization
+#### Math Module
+* Import the _math_ module to use Mathematical functions.
+* Some Mathematical functions include: sin(), cos(), sqrt(), round(), tan(), log(),...
+
+#### Statistical Module
+* The module provides function for math and statistical operations.
+* To Import: _import statistics_
+
+## Errors
+- Errors are the undesired input in Python.
+
+#### Type Error
+* Python will raise a type error when placing a wrong statement or something wrong in the code.
+
+#### Exception Handling
+* Using _try_ and _except_ for exception handling when typing something wrong in the code.
+* If the _try block_ raises an error, Python will execute the proper except block.
+* Syntax:
+            '''
+            try:
+                #code
+            except:
+                #code
+            '''
+
+## Data Handling
+#### The IO Module
+* We use the IO module to implement file-like object in memory to store data in memory and handle it.
+
+#### The OS Module
+* We use the OS module to interact with the operating system.
+* It helps us read, write, and delete files. It also help us work with directories and folders.
+
+#### Shutil Module
+* This module help us move data files to different directories and folders.
+
+#### The Send2Trash Module
+* The module help us send the deleted files to the trash bin instead of removing the files permanently.
+* Use this command to install it using Jupyter Notebooks: _!pip install send2trash_
+
+#### The ZipFile Module
+* The module is used to compress and extract files and folders.
+* Import: _import zipfile_
+
+## Numerical Python (NumPy)
+* NumPy is an open source and free Python Library.
+* It has a large number of functions which work with n-dimensional arrays.
+* You must import it  to be able to use it. 
+* _import numpy as np_
+
+#### 1-D Operations
+You can do 1-D array math operations using numpy.
+
+*Math functions with 1-D array include: max(), min(), avg(), mean(), stdev(),...*
+
+#### Creating N-D Arrays
+#### Math with N-D Arrays
+#### Matrices
+##### Indexing for Matrices
+* Accessing a value: _arrayName[row, column]_
+
+#### Reshaping Arrays
+
+## Pandas Data Analysis
+* Pandas is an open source and powerful Python library.
+* It is used for Data Analysis, Data Structures, Analyze Files, and Visualization.
+* Import: _import pandas as pd_
+
+### Using Pandas
+#### Displaying html Contents
+                    '''
+                    new_url = '#'
+                    new_htm = pdf.read(new_url, header=0, index_col=0)[3]
+                    '''
+* Ensure all packages needed for the operation are installed. Example the _lxml_ package. To install use _!pip install lxml_ package using the notebook.
+
+#### Excel files
+* Pandas can be used to extract and analyze excel data.
+* We use: _pd.read_excel()_
+
+#### Json Files
+* We use: pd.read_json()_
+
+## Matplotlib Data Visualization
+* Matplotlib is an open source library used to visualize data with plots and graphs.
+* You must import it first to be able to use it.
+* Import: _import matplotlib as plt_
+
+#### Histograms
+* They are used to show frequency distributions.
+* Syntax: _plt.hsit()_
+
+#### Pie Charts
+* Syntax: _plt.pie()_
+
+## Seaborn Library
+* Seaborn library is a complement to Matplotlib.
+* Seaborn is used for advanced graphs and visualization.
+* To use it you have to import it.
+* _import seaborn as sb_
